@@ -54,17 +54,34 @@ function validechoice() {
                 Tabperso[indexperso].img = "./assets/" + Tabperso[indexperso].id + ".png";
                 ul.innerHTML+= `<li><img src="${Tabperso[indexperso].img}"></li>`;
                 ul.innerHTML+= `<li>${Tabperso[indexperso].block}</li>`;
-                
             }
     })
 }
 
 function initgame(params) {
-
     SelectPerso();
     validechoice();
-
 }
+
+function attack() { 
+    
+}
+function tours() { 
+    
+}
+function win() { 
+    
+}
+function loose() { 
+    
+}
+
+function play() { 
+    attack();
+    tours();
+    win();
+    loose();
+ }
 
 initgame();
 
