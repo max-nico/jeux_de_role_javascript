@@ -7,6 +7,7 @@ import  {bubu, dylan, flash} from "./personico.js";
 let Tabperso = [perso_1_max,perso_2_max,perso_3_max,bubu,dylan,flash];
 let selectedPerso = [];
 let choose = document.getElementById('choose-perso');
+let arene = document.getElementById('arene');
 
 
 function SelectPerso (){
@@ -43,7 +44,8 @@ function validechoice() {
             let indexperso = parseInt(selectedPerso[i].replace("_","") -1);
                 console.log('tabperso selceted ' + Tabperso[indexperso].name);
                 let ul = document.createElement("ul");
-                choose.append(ul);
+                arene.append(ul);
+                choose.remove();
                 ul.innerHTML+= `<li>${Tabperso[indexperso].name}</li>`;
                 ul.innerHTML+= `<li>${Tabperso[indexperso].race}</li>`;
                 ul.innerHTML+= `<li>${Tabperso[indexperso].quality}</li>`;
