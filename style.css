@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#appear.none{display:none;}
+#appear.display{-webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 6s;-ms-animation: fadein 6s;-o-animation: fadein 6s;animation: fadein 6s;display:block;position: absolute;
+    top: 29%;
+    right: 47%;
+    z-index: 2;
+    background: #099685;
+    color: white;
+    border-radius: 25px;
+    padding: 25px;cursor:pointer;}
+
+.block-title{background-image: linear-gradient(45deg, #ffa068, #ff8666, #ff6963, #ff4460);position: relative;
+overflow: hidden;}
+.subblock-title{margin: auto;text-align: center;padding:15px;}
+.title{font-family: 'Indie Flower', cursive;color:#8F0890;font-size: 70px;font-weight: bold;}
+.logo{width:20%;}
+.block-img{margin: auto;text-align: center;background: cornsilk;}

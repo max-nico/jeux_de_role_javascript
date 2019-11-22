@@ -54,19 +54,36 @@ function validechoice() {
                 ul.innerHTML+= `<li>${Tabperso[indexperso].degats}</li>`;
                 ul.innerHTML+= `<li>${Tabperso[indexperso].pv}</li>`;
                 Tabperso[indexperso].img = "./assets/" + Tabperso[indexperso].id + ".png";
-                ul.innerHTML+= `<li><img src="${Tabperso[indexperso].img}"></li>`;
+                ul.innerHTML+= `<li class="block-img"><img class="rounded" src="${Tabperso[indexperso].img}"></li>`;
                 ul.innerHTML+= `<li>${Tabperso[indexperso].block}</li>`;
-                
             }
     })
 }
 
 function initgame(params) {
-
     SelectPerso();
     validechoice();
-
 }
+
+function attack() { 
+    
+}
+function tours() { 
+    
+}
+function win() { 
+    
+}
+function loose() { 
+    
+}
+
+function play() { 
+    attack();
+    tours();
+    win();
+    loose();
+ }
 
 initgame();
 
