@@ -9,7 +9,7 @@ let img = document.createElement("img");
 
 
 
-export let bubu = new Personnage('Bubu', 'Tortue', 'Lente','C.....est......moi.......qu....ai.........gagné','ahhhh.......je........meurs',6 ,24, imgbubu, divblock);
+export let bubu = new Personnage('Bubu', 'Tortue', 'Lente','C.....est......moi.......qu....ai.........gagné','ahhhh.......je........meurs',6 ,24, img, divblock);
 
 
 
